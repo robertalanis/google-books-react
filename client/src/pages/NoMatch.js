@@ -1,18 +1,22 @@
-import React from "react";
-import Header from "../components/Header";
+import React, { Component } from "react";
+import { Button, Jumbotron } from "reactstrap";
 
 function NoMatch() {
   return (
     <div>
-          <Header>
-            <h1>404 Page Not Found</h1>
-            <h1>
-              <span role="img" aria-label="Face With Rolling Eyes Emoji">
-                🙄
-              </span>
-            </h1>
-          </Header>
-    </div>
+    <Jumbotron>
+      <h1 className="display-4 text-center">404 Page Not Found</h1>
+      <h1 className="display-4 text-center">
+        <span role="img" aria-label="Face With Rolling Eyes Emoji">
+          🙄
+        </span>
+      </h1>
+      <hr></hr>
+      <Button href="/" color="primary" size="lg" block>
+        Start a new search
+      </Button>
+    </Jumbotron>
+  </div>
   );
 }
 
