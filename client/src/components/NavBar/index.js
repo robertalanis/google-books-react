@@ -10,7 +10,7 @@ const NavBar = (props) => {
 	return (
 		<div>
 			<Navbar color="primary" dark expand="md">
-				<NavbarBrand href="/">Google Books</NavbarBrand>
+				<NavbarBrand href="/">Book Search</NavbarBrand>
 				<NavbarToggler onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="ml-auto" navbar>
