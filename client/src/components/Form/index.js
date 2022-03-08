@@ -7,7 +7,7 @@ function Form(props) {
 				<div className="form-group row">
 					<div class="col-12">
 						<label for="search" class="col-form-label">
-							<h2>Book Search</h2>
+							<h2>Search Here</h2>
 						</label>
 					</div>
 					<div class="col-10 col-md-8 col-lg-6 col-xl-4">
