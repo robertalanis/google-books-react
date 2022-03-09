@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment 
 
-This App is deployed on Heroku:
+This App is deployed on [Heroku](https://book-search-robert-alanis.herokuapp.com/search/)
 
 ## Technologies used
 
