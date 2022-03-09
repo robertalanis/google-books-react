@@ -1,5 +1,5 @@
 # Book Search
-![app](client/public/images/BookSearch.png)
+![app](client/public/BookSearch.png)
 
 ## Description
 
